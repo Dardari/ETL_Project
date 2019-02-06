@@ -1,7 +1,10 @@
 #ETL-Project Final Notes
 
     * For the datasets used, we took csv files from several sources. From the Austin Data page at data.austintexas.gov, we files for parks, restaurant inspection scores, crime incidents, etc. The datasets had to include zip codes, so that we could aggregate all of our indicators of quality of life and group them together by zip code. Basically, we were trying to measure quality of life through numbers and metrics for Austin Zip Codes and compare them to each other.
-
+            
+            *example datasets:
+               1. https://data.austintexas.gov/Health-and-Community-Services/Food-Establishment-Inspection-Scores/ecmv-9xxi
+               2. https://www.kaggle.com/jboysen/austin-crime#austin_crime.csv
     * We downloaded our datasets, cleaned them of any irrelevant columns and dropped duplicates, forming dataframes. After exporting these dataframes into SQL workbench tables, we then developed one final aggregate table to show all quality of life metrics.
     
     * We used SQL workbench because it is much more intuitive for the type of project we want. As far as joining tables and doing subqueries, it was easier for us to use.
